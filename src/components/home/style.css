@@ -1,0 +1,31 @@
+figcaption{
+    position: absolute;
+    text-align: center;
+}
+
+.img_fluid{
+    position: absolute;
+}
+
+.fit-image{
+    width: 100%;
+    object-fit: cover
+}
+
+#rose1 {
+    padding: 0px 14px 26px 40px
+}
+
+#hand2 {
+    padding: 26px 14px 20px 40px
+}
+
+#rose2 {
+    padding: 0px 40px 26px 14px
+}
+
+#hand1 {
+    padding: 26px 40px 20px 14px
+}
+
+
