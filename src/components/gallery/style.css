@@ -1,0 +1,22 @@
+
+
+.fit-image{
+    width: 100%;
+    object-fit: cover
+}
+
+#rose-1 {
+    padding: 0 14px 26px 40px
+}
+
+#rose-2{
+    padding: 0 40px 26px 14px;
+}
+
+#hand-1{
+    padding: 26px 40px 48px 14px;
+}
+
+#hand-2{
+    padding: 26px 14px 48px 40px;
+}
