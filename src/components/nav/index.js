@@ -3,6 +3,9 @@ import "./style.css";
 
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from "react-bootstrap/Nav";
+// import { Router } from "react-router";
+import {LinkContainer} from 'react-router-bootstrap'
+// import { Link } from "react-router-dom";
 
 const NavBar = () => {
     return (
@@ -10,10 +13,15 @@ const NavBar = () => {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
-                    <Nav.Link className="links" href="#aboutContainer" id="home">HOME</Nav.Link>
-                    <Nav.Link className="links" href="#skillsContainer" id="about">ABOUT</Nav.Link>
-                    <Nav.Link className="links" href="#projectContainer" id="gallery">GALLERY</Nav.Link>
-                    <Nav.Link className="links" href="#contactContainer" id="contact">CONTACT</Nav.Link>
+                    <LinkContainer to="/">
+                        <Nav.Link className="links" id="home">HOME</Nav.Link>
+                    </LinkContainer>
+                    <LinkContainer to="/about">
+                        <Nav.Link className="links" id="about">ABOUT</Nav.Link>
+                    </LinkContainer>
+                    <LinkContainer to="/gallery">
+                        <Nav.Link className="links" id="gallery">GALLERY</Nav.Link>
+                    </LinkContainer>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
