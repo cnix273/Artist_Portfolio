@@ -9,11 +9,6 @@ import Home from "../home"
 import Gallery from "../gallery"
 
 export default class MainRouter extends Component {
-    constructor(props) {
-        super(props);
-    
-      }
-
     render() {
         return (
             <Router>
