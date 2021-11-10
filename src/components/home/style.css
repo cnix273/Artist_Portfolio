@@ -12,20 +12,13 @@ figcaption{
     object-fit: cover
 }
 
-#rose1 {
-    padding: 0px 14px 26px 40px
+#trio-pic1, #trio-pic2, #trio-pic3{
+    padding: 0 12px;
+    margin-bottom: 48px;
 }
 
-#hand2 {
-    padding: 26px 14px 20px 40px
+.textElement{
+    width: 80%;
+    transform: translate(10%);
+    margin-top: 48px;
 }
-
-#rose2 {
-    padding: 0px 40px 26px 14px
-}
-
-#hand1 {
-    padding: 26px 40px 20px 14px
-}
-
-
