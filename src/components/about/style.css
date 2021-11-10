@@ -1,0 +1,13 @@
+#profile_image{
+    height: 300px;
+    margin: 100px auto;
+    display: block;
+}
+
+#name{
+    margin-top: 100px;
+}
+
+#subtitle{
+    text-align: center;
+}
