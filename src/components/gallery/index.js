@@ -14,15 +14,20 @@ const Gallery = () => {
             <Nav/>
             <Row>
                 <Col>
-                    <Parallax id="image1" bgImage="/assets/studio4.jpg" bgImageAlt="the cat" strength={200}>
+                    {/* <Parallax id="image1" bgImage="/assets/studio4.jpg" bgImageAlt="the cat" strength={200}>
                         <div style={{ height: '750px' }}>
                             <div style={{ background: "white", padding: "20px",position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)", fontSize: "50px" }}>GALLERY</div>
+                        </div>
+                    </Parallax> */}
+                    <Parallax id="image1" bgImage="/assets/textural_painting_3.jpg" bgImageAlt="oil painting" strength={200}>
+                        <div style={{ height: '700px' }}>
+                            <div style={{ background: "white", padding: "20px",position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)", fontSize: "50px"  }}>GALLERY</div>
                         </div>
                     </Parallax>
                 </Col>
             </Row>
             <Row>
-                <h2 style={{textAlign: "center", padding: "40px 0"}}>| | |</h2>
+                <p style={{textAlign: "center", padding: "40px 0", margin: 0, fontSize: "50px" }}>RECENT WORKS</p>
                 <Col>
                     <Parallax id="studio-top" bgImage="/assets/studio-top.jpg" bgImageAlt="the cat" strength={200}>
                         <div style={{ height: '800px' }}/>
@@ -36,7 +41,7 @@ const Gallery = () => {
                 </Col>
             </Row>
             <Row>
-                <h2 style={{textAlign: "center", padding: "40px 0"}}>| | |</h2>
+                <p style={{textAlign: "center", padding: "40px 0", margin: 0, fontSize: "50px" }}>BEFORE &amp; AFTERS</p>
                 <Col>
                     <img src="/assets/rose1.jpg" id="rose-1" alt="rose painting before" className="img-responsive" style={{ width: "100%" }}></img>
                 </Col>
@@ -46,10 +51,10 @@ const Gallery = () => {
             </Row>
             <Row>
                 <Col>
-                    <img src="/assets/hand2.jpg" id="hand-2" alt="rose painting before" className="img-responsive" style={{ width: "100%" }}></img>
+                    <img src="/assets/hand1.jpg" id="hand-2" alt="rose painting after" className="img-responsive" style={{ width: "100%" }}></img>
                 </Col>
                 <Col>
-                    <img src="/assets/hand1.jpg" id="hand-1" alt="rose painting after" className="img-responsive" style={{ width: "100%" }}></img>
+                    <img src="/assets/hand2.jpg" id="hand-1" alt="rose painting before" className="img-responsive" style={{ width: "100%" }}></img>
                 </Col>
             </Row>
         </Container>
