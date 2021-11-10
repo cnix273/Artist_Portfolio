@@ -14,12 +14,12 @@ const Home = () => {
             <Nav/>
 
             <Parallax id="image1" bgImage="/assets/studio2.jpg" bgImageAlt="the cat" strength={200}>
-                <div style={{ height: '900px' }}>
-                    <div style={{ background: "white", padding: "20px",position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)", fontSize: "50px" }}>INDIA NIX</div>
+                <div style={{ height: '700px' }}>
+                    <div style={{ background: "white", padding: "20px",position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)", fontSize: "50px" }}>INDIA GRAY</div>
                 </div>
             </Parallax>
 
-            <div className="textElement" style={{ height: '400px' }}>
+            {/* <div className="textElement" style={{ height: '400px' }}>
                 
             </div>
 
@@ -27,8 +27,8 @@ const Home = () => {
                 <div style={{ height: '900px' }}>
                     <div style={{ background: "white", padding: "20px",position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)", fontSize: "50px"  }}>RECENT WORKS</div>
                 </div>
-            </Parallax>
-
+            </Parallax> */}
+            <h2 style={{textAlign: "center", padding: "40px 0"}}>| | |</h2>
             <div style={{ height: '200px' }}>
                 <p className="textElement">
                     Throughout high school and university, India studied many styles of painting from still life to landscape to abstract to 
