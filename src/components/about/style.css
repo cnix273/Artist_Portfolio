@@ -1,13 +1,14 @@
 #profile_image{
     height: 300px;
-    margin: 100px auto;
+    margin: 48px auto;
     display: block;
+    padding-right: -29.45px!important;
 }
 
-#name{
-    margin-top: 100px;
+#about-text-row-1{
+    padding: 48px 48px 48px 0;
 }
 
-#subtitle{
-    text-align: center;
+#about-text-row-2{
+    padding: 0 48px 48px 48px;
 }
